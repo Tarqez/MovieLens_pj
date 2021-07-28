@@ -52,4 +52,4 @@ edx <- rbind(edx, removed)
 rm(ratings, movies, test_index, temp, movielens, removed)
 
 # Save edx and validation sets in a .RData file
-save(edx, validation, file = "./../data/edx&validation_sets.RData")
+save(edx, validation, file = "./data/edx&validation_sets.RData")
